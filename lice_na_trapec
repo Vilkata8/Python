@@ -1,0 +1,4 @@
+a= float(input("Insert a:"))
+b= float(input("Insert b:"))
+h= float(input("Insert h:"))
+print(((a+b)*h)/2)
