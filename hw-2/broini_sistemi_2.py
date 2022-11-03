@@ -1,9 +1,7 @@
-import string
-base=string.digits + string.ascii_letters
-a=int(input('Input number: '))
-b=int(input('Input base: '))
-result=''
-while a//b !=0:
-    result += base[a%b]
-    a//=b
+num=27102022
+devisor=2
+result=""
+while num//2>0:
+    result+=str(num%2)
+    num//2
 print(result[::-1])
