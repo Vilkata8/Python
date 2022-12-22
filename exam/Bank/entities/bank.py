@@ -1,2 +1,2 @@
-class users:
-	pass
+class bank():
+    users = []

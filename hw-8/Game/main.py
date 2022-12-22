@@ -19,7 +19,7 @@ characters_names = []
 characters = []
 characters_class = ["Warrior", "Mage", "Priest", "Rogue"]
 class Menu:
-    def print_commands(self):
+    def print_menu(self):
         print("1. Create a new character.")
         print("2. Create a weapon for existing character.")
         print("3. Create an additional weapon for existing character.")

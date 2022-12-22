@@ -19,3 +19,8 @@ class InvalidAccountCurrency(Exception):
 class InvalidAccountType(Exception):
     pass
 
+class InvalidUser(Exception):
+    pass
+
+class EmptyBank(Exception):
+    pass
